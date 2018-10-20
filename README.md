@@ -38,22 +38,28 @@ Note: In the client side, you need to input the operations (i.e, upload, downloa
 ##### Assignment 2
 - Client side: python multithread_file_client_final.py
 - Server side: python multithread_file_server_final.py
-    Note: In the client side, you need to input the operations (i.e, upload, download, rename, delete). The operatins are the same with Assignment 1, however, you need to open several terminals to run the client program at the same time. Examples:
-                - upload ./test_files/file1.txt ./server/uploaded_files/
-                - download ./test_file/file1.txt ./client/downloaded_files/
-                - rename ./server/uploaded_files/file2.txt ./server/uploaded_files/file_renamed.txt
-                - delete ./server/uploaded_files/file_renamed.txt
+    
+Note: In the client side, you need to input the operations (i.e, upload, download, rename, delete). The operatins are the same with Assignment 1, however, you need to open several terminals to run the client program at the same time. Examples:
+- upload ./test_files/file1.txt ./server/uploaded_files/
+- download ./test_file/file1.txt ./client/downloaded_files/
+- rename ./server/uploaded_files/file2.txt ./server/uploaded_files/file_renamed.txt
+- delete ./server/uploaded_files/file_renamed.txt
+
 ##### Assignment 3
 - Client side: python rpc_client_final.py
 - Server side: python rpc_server_final.py
-    Note: The test cases are written in the rpc_client_final.py. You can add more cases. For more details, please refer the file "rpc_client_final.py". Examples:
-                - s = add(1.5, 2.6)
-                - pi = calculate_pi()
-                - sorted_list = sort(unsorted_list)
-                - product = matrix_multiply(matrix_A, matrix_B, matrix_C)
 
-##### Assignment 4 --> 
+Note: The test cases are written in the rpc_client_final.py. You can add more cases. For more details, please refer the file "rpc_client_final.py". Examples:
+- s = add(1.5, 2.6)
+- pi = calculate_pi()
+- sorted_list = sort(unsorted_list)
+- product = matrix_multiply(matrix_A, matrix_B, matrix_C)
+
+##### Assignment 4
 - Client side: python storage_client.py
 - Server side: python storage_server.py
-    Note: You can do those operations on the client. The synchornized folder on client is "./synchronized_folder_client/", while the synchornized folder on server is "./synchronized_folder_server/". Examples:
-                - You can directly drag files or modify files in the "./synchronized_folder_client/"" folder directly. You will see the corresponding change in the "./synchronized_folder_server/" folder.
+    
+Note: You can do those operations on the client. The synchornized folder on client is "./synchronized_folder_client/", while the synchornized folder on server is "./synchronized_folder_server/". Examples:
+- You can directly drag files or modify files in the "./synchronized_folder_client/"" folder directly. You will see the corresponding change in the "./synchronized_folder_server/" folder.
+
+
