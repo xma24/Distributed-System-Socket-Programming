@@ -28,11 +28,12 @@
 ##### Assignment 1
 - Client side: python file_client.py
 - Server side: python file_server.py
-- Note: In the client side, you need to input the operations (i.e, upload, download, rename, delete). Examples:
--- upload ./test_files/file1.txt ./server/uploaded_files/
--- download ./test_file/file1.txt ./client/downloaded_files/
-                - rename ./server/uploaded_files/file2.txt ./server/uploaded_files/file_renamed.txt
-                - delete ./server/uploaded_files/file_renamed.txt
+
+Note: In the client side, you need to input the operations (i.e, upload, download, rename, delete). Examples:
+- upload ./test_files/file1.txt ./server/uploaded_files/
+- download ./test_file/file1.txt ./client/downloaded_files/
+- rename ./server/uploaded_files/file2.txt ./server/uploaded_files/file_renamed.txt
+- delete ./server/uploaded_files/file_renamed.txt
 
 ##### Assignment 2
 - Client side: python multithread_file_client_final.py
