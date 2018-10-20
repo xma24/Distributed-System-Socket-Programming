@@ -8,8 +8,8 @@
     - Assignment 4 --> create a dropbox-like file synchronization program.
     
 1. For each assignment, we also write the test codes to test our model. You can choose to directly run those test codes. The following is the relationship between our codes and test codes:
-    - Assignment 1 --> code: file_client.py; file_server.py
-                     test: Test_file_client_server.py
+    - Assignment 1 --> - code: file_client.py; file_server.py
+                       - test: Test_file_client_server.py
 
     - Assignment 2 --> code: multithread_file_client_final.py; multithread_file_server_final.py
                      test: Test_multithread_file_client_server.py
